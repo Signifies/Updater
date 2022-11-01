@@ -63,7 +63,7 @@ public class Updater implements Listener
             while (set.next()) {
                  String result = set.getString(1);
                 if (!result.equals(getVersion())) {
-                    etUpdateStatus(true);
+                    setUpdateStatus(true);
                 }
                 else {
                     setUpdateStatus(false);
